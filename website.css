@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    /* background-color: antiquewhite; */
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 0 20px;
+    font-size: 12px;
+    letter-spacing: 2.40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+}
+
+ul li a {
+    /* display: inline-block; */
+    padding: 15px;
+}
+
+
+.nav:hover{
+    background-color: lightslategray;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.logo{
+    margin-top:10px ;
+}
+
+main {
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-right{
+    width: 750px;
+    height: 850px;
+    border-radius: 50px;
+}
+
+.content-picture{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.content-left {
+    width: 300px;
+}
+
+.first {
+  font-size: 30px;
+  
+  font-weight:bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 4px;
+  
+}
+
+.content-left h2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.second {
+    line-height: 30px;
+    color:gray ;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 2px solid #333333;
+    font-size: 14px;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+button:hover{
+    background-color:lightslategray ;
+    color: #c4c4f7;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+footer{
+    display: flex;
+    background-color: rgba(137, 142, 148, 0.158);
+    height: 200px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 2px;
+    
+}
+
+h4{
+    margin-left: 13px;
+    margin-bottom: 2px;
+}
